@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ivi-test/static/css/main.675b20eb.css",
-    "main.js": "/ivi-test/static/js/main.09e46ebb.js",
+    "main.css": "/ivi-test/static/css/main.a167acbb.css",
+    "main.js": "/ivi-test/static/js/main.063589cf.js",
     "index.html": "/ivi-test/index.html",
-    "main.675b20eb.css.map": "/ivi-test/static/css/main.675b20eb.css.map",
-    "main.09e46ebb.js.map": "/ivi-test/static/js/main.09e46ebb.js.map"
+    "main.a167acbb.css.map": "/ivi-test/static/css/main.a167acbb.css.map",
+    "main.063589cf.js.map": "/ivi-test/static/js/main.063589cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.675b20eb.css",
-    "static/js/main.09e46ebb.js"
+    "static/css/main.a167acbb.css",
+    "static/js/main.063589cf.js"
   ]
 }
