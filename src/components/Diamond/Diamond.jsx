@@ -35,7 +35,7 @@ const Diamond = () => {
 
   const handleMouseEnter = () => {
     if (isCounting) {
-      document.body.style.backgroundColor = "#d5c40d";
+      document.body.style.backgroundColor = "black";
     }
     setIsHovered(true);
   };
@@ -52,13 +52,12 @@ const Diamond = () => {
   }, [isCounting, isHovered]);
 
   return (
-    <div
-      className={styles.Container_diamond}
-      onClick={handleIconClick}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <div className={styles.diamond}>
+    <div className={styles.Container_diamond} onClick={handleIconClick}>
+      <div
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className={styles.diamond}
+      >
         <div className={styles.cutDiamond}>
           {showCount && <span className={styles.text}>{count}</span>}
           {!showCount && <span className={styles.text}>Go!</span>}
