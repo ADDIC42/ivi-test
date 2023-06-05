@@ -1,0 +1,32 @@
+.Container_diamond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    .diamond {
+        width: 30vw;
+        height: 30vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        clip-path: polygon(75.69% 13.28%, 98.71% 34.55%, 49.35% 87.94%, 0% 34.55%, 22.4% 13.28%);
+        background-color: #9f23b5d7;
+        user-select: none;  
+        cursor: pointer;
+            .cutDiamond {
+                color: #d5c40d;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:hover {
+                    color: #eae207;
+                }
+                    span {
+                        font-size: 20vw; /* Используйте относительные единицы, чтобы задать размер в процентах от ширины родительского элемента */
+                        }
+          } 
+      }
+}
+
