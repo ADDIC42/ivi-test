@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ivi-test/static/css/main.a167acbb.css",
-    "main.js": "/ivi-test/static/js/main.063589cf.js",
+    "main.js": "/ivi-test/static/js/main.10e07f81.js",
     "index.html": "/ivi-test/index.html",
     "main.a167acbb.css.map": "/ivi-test/static/css/main.a167acbb.css.map",
-    "main.063589cf.js.map": "/ivi-test/static/js/main.063589cf.js.map"
+    "main.10e07f81.js.map": "/ivi-test/static/js/main.10e07f81.js.map"
   },
   "entrypoints": [
     "static/css/main.a167acbb.css",
-    "static/js/main.063589cf.js"
+    "static/js/main.10e07f81.js"
   ]
 }
